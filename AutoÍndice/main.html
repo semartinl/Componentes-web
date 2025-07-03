@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Índice auctocompletado</title>
+</head>
+<body>
+    <script>
+        function autoindice() {
+            let títulosHOne = document.body.querySelectorAll("main h1")
+        let títulosHTwo = document.body.getElementsByTagName("h2")
+
+        let cont_indice = document.body.getElementsByClassName("container-indice")
+        let num_indices = document.createElement("h1")
+        num_indices.textContent = Array.from(títulosHOne).length
+        cont_indice[0].appendChild(num_indices)
+        }
+        // for (let i = 1; i<=titulosHOne.lenght;i++){
+
+        // }
+    </script>
+    <header>
+        <h1>AUTO ÍNDICE AUTOCOMPLETADO</h1>
+        <button onclick="autoindice()">Aplicar autoindice</button>
+        <nav class="container-indice">
+
+        
+        </nav>
+    </header>
+    <main>
+        <h1>hola</h1>
+        <h1>hola</h1>
+        <h1>hola</h1>
+        <h1>hola</h1>
+        <h2>sdfs</h2>
+        <h1>hola</h1>
+
+    </main>
+</body>
+</html>

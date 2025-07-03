@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+.container-carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+
+}
+.item-carrusel{
+    width: calc(100%/4);
+    flex:0 0 auto !important;
+    
+    
+}

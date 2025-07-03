@@ -1,0 +1,24 @@
+main{
+    margin:0 auto;
+    max-width: 1200px;
+}
+form#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+form#login > div{
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+form#login :last-child{
+    margin: 0 0 10px 0;
+}
+

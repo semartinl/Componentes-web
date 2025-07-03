@@ -1,0 +1,28 @@
+| Sitio Web                                              | Lo que destaca                                                           |
+| ------------------------------------------------------ | ------------------------------------------------------------------------ |
+| [https://stripe.com](https://stripe.com)               | Minimalismo, claridad, header sticky y adaptable.                        |
+| [https://airbnb.com](https://airbnb.com)               | Excelente responsive y navegación visual.                                |
+| [https://www.apple.com](https://www.apple.com)         | Sobriedad, foco en el producto, animaciones fluidas.                     |
+| [https://www.spotify.com](https://www.spotify.com)     | CTA muy claros, color de fondo dinámico.                                 |
+| [https://www.tesla.com](https://www.tesla.com)         | Navegación limpia, menú simplificado, centrado en el producto.           |
+| [https://www.netflix.com](https://www.netflix.com)     | CTA dominante, branding fuerte, diseño oscuro.                           |
+| [https://www.behance.net](https://www.behance.net)     | Creatividad en el diseño, menú claro y buscador potente.                 |
+| [https://dribbble.com](https://dribbble.com)           | Inspiración visual, header con búsqueda y comunidad.                     |
+| [https://www.shopify.com](https://www.shopify.com)     | Muy buen balance entre texto, botones y menús.                           |
+| [https://www.nike.com](https://www.nike.com)           | Uso elegante del menú superior, personalización.                         |
+| [https://www.zara.com](https://www.zara.com)           | Diseño limpio y centrado en tipografía. Muy moda.                        |
+| [https://www.canva.com](https://www.canva.com)         | Menú bien estructurado, barra fija, foco en acciones.                    |
+| [https://www.dropbox.com](https://www.dropbox.com)     | Header claro con foco en beneficios y acción.                            |
+| [https://www.atlassian.com](https://www.atlassian.com) | Menú técnico pero limpio, CTA bien jerarquizado.                         |
+| [https://www.webflow.com](https://www.webflow.com)     | Excelente ejemplo para diseñadores: animaciones suaves, claridad visual. |
+
+Figma — Excelente para diseñar headers.
+
+Canva — Rápido para crear prototipos si no sabes diseño gráfico.
+
+Header Examples - Tailwind — Headers listos con Tailwind CSS.
+
+Mobbin — Repositorio de interfaces reales muy útil.
+
+Land-book — Galería de landing pages con headers increíbles.
+

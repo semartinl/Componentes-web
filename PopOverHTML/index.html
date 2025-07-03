@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de popover</title>
+    <style>
+        #mypopover {
+            
+            background-color: green;
+            bottom: 0; /*NECESARIO*/
+            right: inherit; /*NECESARIO*/
+            
+        }
+    </style>
+</head>
+<body>
+    <button popovertarget="mypopover">Toggle the popover</button>
+    <div id="mypopover" popover>Popover content</div>
+    <main>
+        <p>Existen diferentes tipos de popovers:</p>
+        <ol>
+            <li>Modals: Los cuales no se pueden interactuar con la demás pagina mientras se encuentre el popover. La API POPOVER solamente proporciona popovers no-modals</li>
+            <li>No-modals: Los cuales dejan de mostrar la información cuando se establece algún evento con la página sobre la que está el popover.</li>
+        </ol>
+        <P>Para saber más sobre el uso de API POPOVER, haz click <a href="https://mdn.github.io/dom-examples/popover-api/" target="_blank" rel="noopener noreferrer">aquí</a></P>
+    <div>
+    
+        <dialog>
+            <p>Establecer un popover con la etiqueta dialog</p>
+            <form method="dialog">
+
+            <button>Close</button>
+            </form>
+        </dialog>
+        <button>Abrir modal</button>
+    </div>
+    </main>
+</body>
+</html>

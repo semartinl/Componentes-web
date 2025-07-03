@@ -1,0 +1,74 @@
+
+body{
+    margin:0;
+    height: 200vh;
+}
+.hd{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+
+    position:sticky;
+    left: 0;
+    top:0px;
+
+    border:solid gray;
+    padding: 10px;
+}
+
+.hd-main-icon{
+    width: 52px;
+    height: 52px;
+}
+.hd-icon-nav-links{
+    width: 32px;
+    height: 32px;
+}
+.hd-nav-links{
+    display: flex;
+    max-width: 500px;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+
+    & a{
+        text-decoration: none; /*Eliminamos la decoración solamente de los enlaces dentro de la navegación del header*/
+    }
+   
+}
+
+.hd-nav-links-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hd-icon-sideBar{
+    display: none;
+
+}
+
+
+.hd-nav-links-section:hover{
+    scale: 1.1;
+    transition: 0.5s ease;
+}
+@media screen and (max-width: 512px) {
+    .hd-nav-links{
+        display:none;
+        transition: 5s ease;
+    }
+    
+    .hd-icon-sideBar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .toggle-btn-icon{
+        font-size: xx-large;
+        cursor: pointer;
+    }
+}

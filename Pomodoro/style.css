@@ -1,0 +1,150 @@
+*{
+    box-sizing: content-box;
+}
+body{
+    margin:0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("./Img/Roronoa\ Zoro.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pomodoro-main-header{
+    background-color: #f0f0f0;
+    padding:8px 12px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-links-main-header{
+    display: flex;
+    flex-basis: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-button-main-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.svg-nav-button-main-header{
+    width: 32px;
+    fill:rgba(228, 57, 15, 0.733);
+}
+
+#button-nav-aside{
+    font-size: xx-large;
+}
+.toggle-main-header>summary{
+    display: block;
+    
+}
+.toggle-main-header{
+    & summary{
+        cursor:pointer;
+    }
+}
+.toggle-main-header[open]{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    
+    & input{
+        justify-self: center;
+        width: 30px;
+        background: none;
+        border:none;
+        
+    }
+    
+    & .container-config-input{
+        display: flex;
+        & label{
+            margin:4px 4px;
+            color: rgb(0, 17, 255);
+        }
+
+    }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-top-counter{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    margin:8px auto;
+    & .counter-n-times{
+        display: flex;;
+        gap: 8px;
+        font-size: x-large;
+        padding: 4px
+        
+    }
+    & .counter-n-times:hover{
+        cursor: pointer;
+        background-color: rgba(222, 184, 135, 0.411);
+        border-radius: 8px;
+        transition:ease 300ms;
+    }
+}
+
+.container-counter{
+    border-radius: 8px;
+    padding: 8px;
+    & span.cnt-counter-time{
+        font-size: 8em;
+        padding:0;
+        
+        
+    }
+
+}
+.container-counter:hover{
+    background-color: rgba(222, 184, 135, 0.411);
+}
+
+
+/* EMPIEZA EL ESTILADO DEL FOOTER*/
+.footer-main{
+    margin: 50px auto ;
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer-button{
+    flex-basis: 60px;
+    align-content: center;
+    text-align: center;
+    height: 60px;
+    
+    background: rgba(255, 255, 0, 0.582);
+
+    
+    border-radius: 50%;
+}
+
+
+.footer-button:nth-child(2){
+    scale: 2;
+    
+}

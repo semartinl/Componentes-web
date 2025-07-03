@@ -1,0 +1,23 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.nav-sidebar{
+    width: 250px;
+    list-style: none;
+    padding: 0;
+    & a{
+        text-decoration: none;
+    }
+}
+.nav-sidebar-link{
+    height: 50px;
+    border-top:solid;
+    background-color: aqua;
+    padding:8px;
+    display: flex;
+    
+}
